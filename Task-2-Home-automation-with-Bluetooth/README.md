@@ -1,28 +1,19 @@
-Task 2 – Home Automation with Bluetooth
-Objective
+# Task 2 – Home Automation with Bluetooth
 
-Design a Bluetooth-controlled embedded system to switch electrical devices ON and OFF using Arduino and a mobile phone.
+## Objective
+Design a simple embedded system to control electrical appliances wirelessly using Bluetooth and Arduino.
 
-Components Used
+## Components Used
+- Arduino UNO
+- HC-05 Bluetooth Module
+- 5V Relay Module
+- LED / Bulb
+- 220Ω Resistor
+- Breadboard
+- Jumper Wires
 
-Arduino UNO
+## Working Principle
+When a command is sent from a mobile phone via Bluetooth, the HC-05 module receives the data and forwards it to the Arduino. The microcontroller reads the command and activates or deactivates the relay accordingly. If the ON command is received, the device turns ON. If the OFF command is received, the device turns OFF.
 
-HC-05 Bluetooth Module
-
-5V Relay Module
-
-LED / Bulb
-
-220Ω Resistor
-
-Breadboard
-
-Jumper Wires
-
-Working Principle
-
-When the user sends a command from the mobile phone through Bluetooth, the HC-05 module receives the signal and transfers it to the Arduino. The Arduino processes the command and controls the relay accordingly. If the ON command is received, the device turns ON. If the OFF command is received, the device turns OFF.
-
-Simulation Platform
-
+## Simulation Platform
 Tinkercad Circuits

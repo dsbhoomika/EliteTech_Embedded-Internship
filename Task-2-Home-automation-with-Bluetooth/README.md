@@ -6,8 +6,6 @@ Design a simple embedded system to control electrical appliances wirelessly usin
 ## Components Used
 - Arduino UNO
 - HC-05 Bluetooth Module
-- 5V Relay Module
-- LED / Bulb
 - 220Ω Resistor
 - Breadboard
 - Jumper Wires
